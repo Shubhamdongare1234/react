@@ -1,0 +1,12 @@
+.home{
+    padding: 32px auto;
+    align-items: center;
+}
+.home h2{
+    font: italic;
+    font-size: 30px;
+    color: green;
+    padding: 40px;
+    margin: 40px;
+    text-align: center;
+}

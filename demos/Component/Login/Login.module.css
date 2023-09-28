@@ -1,0 +1,44 @@
+.login{
+    width: 100%;
+    max-width: 500px;
+    margin: 32px auto;
+    padding: 20px;
+}
+.control{
+    display:flex;
+    flex-direction: column;
+}
+.control label{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.control input{
+    width: 95%;
+    font-size: 15px;
+    padding: 5px 8px;
+
+}
+.actions{
+    background: red;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 12px 10px;
+    color: white;
+    border-radius: 12px;
+    margin: 12px;
+}
+.log a{
+    float: right;
+    font: inherit;
+    color: white;
+    padding: 22px 10px;
+}
+.log a:hover{
+    color: red;
+}
+.actions:active,
+.actions:hover{
+    background: green;
+    border-color: green;
+}

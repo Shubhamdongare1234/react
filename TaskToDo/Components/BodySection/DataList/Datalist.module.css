@@ -1,0 +1,17 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 10px 10px;
+}
+.section label{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+
+    height: 20px;
+    width: 100px;
+    margin: 10px;
+
+
+}

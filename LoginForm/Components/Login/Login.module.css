@@ -1,0 +1,39 @@
+.login{
+    width: 90%;
+    max-width: 640px;
+    margin: 32px auto;
+    padding: 32px;
+}
+.controls{
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0;
+    align-items: stretch;
+
+}
+.controls label,
+.controls input{
+    display: block;
+}
+.controls label{
+    font: inherit;
+    font-size: 20px;
+    margin: 10px 0;
+    color: silver;
+
+}
+.controls input{
+    font: inherit;
+    font-size: 20px;
+    color: black;
+    padding: 5px 5px;
+    border-radius: 12px;
+    border: 2px solid green;
+}
+.controls.invalid input{
+    border-color: red;
+    background: #fbdada;
+}
+.actions{
+    text-align: center;
+}
