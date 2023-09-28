@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 15px;
+    height: 1rem;
+    background: rgba(52,52,52,0.9);
+    width: 95%;
+
+}
+.footer button{
+
+    padding: 4px 5px;
+    font-size: 12px;
+    font-weight: bold;
+}

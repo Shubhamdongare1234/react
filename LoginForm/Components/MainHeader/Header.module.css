@@ -1,0 +1,16 @@
+.main_header{
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    width: 95%;
+    height: 100px;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background:green;
+    padding: 2px 35px;
+}
+.main_header h2{
+    color: black;
+    font-style: italic;
+}

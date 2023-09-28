@@ -1,0 +1,15 @@
+.product{
+    margin: 2rem;
+    padding: 2rem;
+    background: green;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: white;
+}
+.product h2{
+    font-size: 20px;
+    color: red;
+}
+.product .product_cost{
+    color: blue;
+}
